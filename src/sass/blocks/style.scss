@@ -3,9 +3,7 @@
 @import url(/src/sass/base/_fonts.scss);
 
 
-p{
-    font-family: MuseoSansCyrl-300;
-    font-size: 90px;
-    font-weight: 700;
+*{
+    font-family: Museosans ,serif;
 }
 @import url(/src/sass/base/_media.scss);
