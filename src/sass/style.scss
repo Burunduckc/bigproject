@@ -65,6 +65,71 @@ $main-colortwo: #c70101;
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../img/header/bg/bg.png) center (center/cover) no-repeat;
+    .promo-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 70px;
+        .button-main{
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            background-color:$main-colortwo;
+            color:$main-color;
+            border:none;
+            font-size: 16px;
+            font-family: Museosans500;
+            text-transform: uppercase;
+            margin-top: 35px;
+        }
+    }
+    .promo-header{
+        font-size: 42px;
+        font-family: Museosans700;
+        font-weight: 700;
+        text-transform: uppercase;
+        color:$main-color;
+    }
+    .promo-subheader{
+        margin-top: 17px;
+        color:$main-color;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: Museosans500;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .promo-icons{
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo-icon{
+        text-align: center;
+        color:$main-color;
+        font-size: 14px;
+        font-family: Museosans500;
+        font-weight: 500;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 45px;
+        }
+    }
+    .promo-link{
+        color:$main-color;
+        font-size: 16px;
+        font-family: Museosans500;
+        margin-top: 18px;
+        a{
+            text-transform: uppercase;
+            text-decoration: underline;
+            color:$main-color;
+            
+        }
+    }
 }
 .header{
     @include flex-space-between-center-justify-content;
@@ -111,5 +176,35 @@ $main-colortwo: #c70101;
             border: none;
         }
      }
+}
+.prem{
+    display: block;
+    min-height: 473px;
+    .prem-text{
+        margin-top: 70px;
+        text-align: center;
+        font-family: Museosans700;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    .prem-content{
+        display: flex;
+	flex-wrap: wrap;
+	width: 840px;
+	margin: 0 auto;
+	white-space: nowrap;
+	text-align: center;
+        .prem-icon{
+            img{
+                display: block;
+                margin: 5px;
+                width: 70px;
+                white-space: nowrap;
+            }
+        }
+    }
+    // .prem-icon{
+    // }
 }
 
