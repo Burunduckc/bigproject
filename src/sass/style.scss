@@ -193,6 +193,7 @@ $main-colortwo: #c70101;
         .prem-content{
             display: flex;
             justify-content: space-around;
+            
             .prem-icon{
                 margin: 0 25px;
                 .holiday{
@@ -211,9 +212,19 @@ $main-colortwo: #c70101;
                     width: 70px;
                     margin-left: 100px;
                 }
+                a{
+                    color:$main-colortwo;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
             }
         }
     }
-    // }
+}
+.forms{
+    min-height: 680px;
+    width: 100%;
+    background: url(../img/forms/bgforms.png) center (center/cover) no-repeat;
+    
 }
 
